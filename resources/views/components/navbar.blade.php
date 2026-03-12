@@ -5,7 +5,7 @@
             <!-- Logo -->
             <div class="flex items-center">
                 <a href="{{ url('/') }}" class="text-4xl font-bold text-white">
-                    <img src="/images/logos/the_vein_logo.png" alt="" id="vein-logo">
+                    <img src="{{ asset('/images/logos/the_vein_logo.png') }}" alt="" id="vein-logo">
                 </a>
             </div>
 
@@ -34,7 +34,7 @@
             <!-- Other Logo -->
             <div class="hidden md:flex items-center">
                 <a href="{{ url('/') }}" class="text-4xl font-bold text-white">
-                    <img src="/images/logos/pmc-trio-logo.png" alt="" id="trio-logo">
+                    <img src="{{ asset('/images/logos/pmc-trio-logo.png') }}" alt="" id="trio-logo">
                 </a>
             </div>
 

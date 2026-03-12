@@ -108,7 +108,7 @@
                 <div class="flex flex-col gap-3 mb-4">
                     <a href="#">
                         <div class="articles-mini-card-item rounded-xl border border-gray-300 shadow bg-white flex flex-row gap-2 hover:scale-102 transition-all">
-                            <img class="w-24 h-20 rounded-s-xl" src="/images/news/n{{$i}}.png" alt="">
+                            <img class="w-24 h-20 rounded-s-xl" src="{{ asset('/images/news/n{{$i}}.png') }}" alt="">
                             <div class="flex flex-col py-2 truncate">
                                 <h4 class="truncate font-semibold">The Mindanao Mineral Processing and Refining Corporation (MMPRC)</h4>
                                 <small class="inline-flex text-gray-500"><x-icons.calendar></x-icons.calendar>July 25, 2025</small>
@@ -129,7 +129,7 @@
                 <div class="news-card-item transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white">
                         <div class="w-full flex flex-col">
-                            <a href="#"><img src="/images/news/n5.jpg" alt="" class="rounded-t-2xl w-full hover:scale-102"></a>
+                            <a href="#"><img src="{{ asset('/images/news/n5.jpg') }}" alt="" class="rounded-t-2xl w-full hover:scale-102"></a>
                             <div class="solo-news-card-content p-5 flex flex-col">
                                 <small class="w-full flex flex-row items-center text-gray-500">
                                     <span class="w-full flex flex-row items-center">

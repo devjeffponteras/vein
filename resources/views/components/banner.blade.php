@@ -2,7 +2,7 @@
     <div class="banner-slider__viewport">
         <div class="banner-slider__slides">
             <div class="banner-slide banner-slide--active">
-                <div class="banner-slide__bg" style="background-image:url('/images/banner/1.jpg')"></div>
+                <div class="banner-slide__bg" style="background-image:url('{{ asset('/images/banner/1.jpg') }}')"></div>
                 <div class="banner-slide__inner">
                     <div class="banner-slide__content">
                         <span class="banner-slide__tag">Comrel</span>
@@ -10,13 +10,13 @@
                         <p class="banner-slide__desc">Explore premium items crafted with care — modern designs, sustainable materials, and exceptional fit.</p>
                     </div>
                     <div class="banner-slide__image">
-                        <img src="/images/banner/1.jpg" alt="Banner 1" />
+                        <img src="{{ asset('/images/banner/1.jpg') }}" alt="Banner 1" />
                     </div>
                 </div>
             </div>
 
             <div class="banner-slide">
-                <div class="banner-slide__bg" style="background-image:url('/images/banner/2.jpg')"></div>
+                <div class="banner-slide__bg" style="background-image:url('{{ asset('/images/banner/2.jpg') }}')"></div>
                 <div class="banner-slide__inner">
                     <div class="banner-slide__content">
                         <span class="banner-slide__tag">PHILSAGA</span>
@@ -24,13 +24,13 @@
                         <p class="banner-slide__desc">Limited time offers across our seasonal range. Don’t miss out — stock is limited.</p>
                     </div>
                     <div class="banner-slide__image">
-                        <img src="/images/banner/2.jpg" alt="Banner 2" />
+                        <img src="{{ asset('/images/banner/2.jpg') }}" alt="Banner 2" />
                     </div>
                 </div>
             </div>
 
             <div class="banner-slide">
-                <div class="banner-slide__bg" style="background-image:url('/images/banner/3.jpg')"></div>
+                <div class="banner-slide__bg" style="background-image:url('{{ asset('/images/banner/3.jpg') }}')"></div>
                 <div class="banner-slide__inner">
                     <div class="banner-slide__content">
                         <span class="banner-slide__tag">Featured</span>
@@ -38,7 +38,7 @@
                         <p class="banner-slide__desc">Our team selects standout pieces that combine style and comfort for everyday wear.</p>
                     </div>
                     <div class="banner-slide__image">
-                        <img src="/images/banner/3.jpg" alt="Banner 3" />
+                        <img src="{{ asset('/images/banner/3.jpg') }}" alt="Banner 3" />
                     </div>
                 </div>
             </div>

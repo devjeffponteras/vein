@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto py-12 grid grid-cols-md-1 md:grid-cols-4 gap-6 px-4 relative overflow-hidden">
         <div class="flex flex-col items-start">
             <!-- <h4 class="font-bold text-xl mb-3">The Vein</h4> -->
-            <img src="/images/logos/the_vein_logo.png" alt="" id="vein-logo">
+            <img src="{{ asset('/images/logos/the_vein_logo.png') }}" alt="" id="vein-logo">
             <p class="text-sm opacity-90 text-start my-4">A Socially Responsible & Environment Friendly Company.</p>
 
             <h5 class='font-bold text-lg mt-6'>Headquarters:</h5>
@@ -67,7 +67,7 @@
             </li>
             </ul>
 
-            <img class="opacity-20" id='footer-img' src="/images/logos/pmc-logo-solo.png" alt="" style="min-width: 380px; transform: translate(-50%,10%);" />
+            <img class="opacity-20" id='footer-img' src="{{ asset('/images/logos/pmc-logo-solo.png') }}" alt="" style="min-width: 380px; transform: translate(-50%,10%);" />
 
         </div>
     </div>

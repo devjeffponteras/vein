@@ -8,14 +8,14 @@
     <section class="featured-section row relative overflow-hidden">
 
         <div class="bg-img-silo w-full z-0 opacity-20 relative">
-            <img src="/images/bgs/topped.jpg" alt="" class="absolute" style="width: stretch">
+            <img src="{{ asset('/images/bgs/topped.jpg') }}" alt="" class="absolute" style="width: stretch">
         </div>
 
         <div class="max-w-7xl mx-auto px-4 py-8 z-20 opacity-0 translate-y-10 transition duration-700 scroll-animate">
             <div class="flex flex-col md:flex-row gap-8">
                 <div class="w-full md:w-1/2 z-20">
                     <div class="img-holder">
-                        <img class="rounded-2xl shadow min-h-full" src="/images/news/n1.png" alt="">
+                        <img class="rounded-2xl shadow min-h-full" src="{{ asset('/images/news/n1.png') }}" alt="">
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 relative">
@@ -62,7 +62,7 @@
                 <div class="card-news-item w-full md:w-1/3 relative scale-hov">
                     <div class="flex flex-row bg-green-900 rounded-2xl p-4 pb-6 gap-3 shadow">
                         <div class="w-1/4 card-news-image-holder">
-                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="/images/news/n2.png" alt="">
+                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="{{ asset('/images/news/n2.png') }}" alt="">
                         </div>
                         <div class="w-3/4 card-news-body text-white">
                             <small class="text-xs font-semibold text-white bg-green-500 uppercase px-2 py-1 rounded-full">Latest</small>
@@ -82,7 +82,7 @@
                 <div class="card-news-item w-full md:w-1/3 relative scale-hov">
                     <div class="flex flex-row bg-green-900 rounded-2xl p-4 pb-6 gap-3 shadow">
                         <div class="w-1/4 card-news-image-holder">
-                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="/images/news/n3.png" alt="">
+                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="{{ asset('/images/news/n3.png') }}" alt="">
                         </div>
                         <div class="w-3/4 card-news-body text-white">
                             <small class="text-xs font-semibold text-white bg-green-500 uppercase px-2 py-1 rounded-full">Latest</small>
@@ -102,7 +102,7 @@
                 <div class="card-news-item w-full md:w-1/3 relative scale-hov">
                     <div class="flex flex-row bg-green-900 rounded-2xl p-4 pb-6 gap-3 shadow">
                         <div class="w-1/4 card-news-image-holder">
-                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="/images/news/n4.png" alt="">
+                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="{{ asset('/images/news/n4.png') }}" alt="">
                         </div>
                         <div class="w-3/4 card-news-body text-white">
                             <small class="text-xs font-semibold text-white bg-green-500 uppercase px-2 py-1 rounded-full">Latest</small>
@@ -144,7 +144,7 @@
                 <div class="card-news-item w-full md:w-1/3 relative scale-hov">
                     <div class="flex flex-row bg-green-900 rounded-2xl p-4 pb-6 gap-3 shadow">
                         <div class="w-1/4 card-news-image-holder">
-                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="/images/news/n6.png" alt="">
+                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="{{ asset('/images/news/n6.png') }}" alt="">
                         </div>
                         <div class="w-3/4 card-news-body text-white">
                             <small class="text-xs font-semibold text-white bg-green-500 uppercase px-2 py-1 rounded-full">trending</small>
@@ -164,7 +164,7 @@
                 <div class="card-news-item w-full md:w-1/3 relative scale-hov">
                     <div class="flex flex-row bg-green-900 rounded-2xl p-4 pb-6 gap-3 shadow">
                         <div class="w-1/4 card-news-image-holder">
-                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="/images/news/n4.png" alt="">
+                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="{{ asset('/images/news/n4.png') }}" alt="">
                         </div>
                         <div class="w-3/4 card-news-body text-white">
                             <small class="text-xs font-semibold text-white bg-green-500 uppercase px-2 py-1 rounded-full">trending</small>
@@ -184,7 +184,7 @@
                 <div class="card-news-item w-full md:w-1/3 relative scale-hov">
                     <div class="flex flex-row bg-green-900 rounded-2xl p-4 pb-6 gap-3 shadow">
                         <div class="w-1/4 card-news-image-holder">
-                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="/images/news/n3.png" alt="">
+                            <img class="card-news-image-item rounded-full h-22 w-22 border-4 border-white" src="{{ asset('/images/news/n3.png') }}" alt="">
                         </div>
                         <div class="w-3/4 card-news-body text-white">
                             <small class="text-xs font-semibold text-white bg-green-500 uppercase px-2 py-1 rounded-full">trending</small>
@@ -262,7 +262,7 @@
                     <div class="flex flex-col md:flex-row max-w-7xl mx-auto px-4 py-10 gap-4">
                         <div class="intro-container w-1/2 mb-8 mt-4">
                             <img class="rounded-2xl shadow min-h-full"
-                                src="/images/publications/pubs1.png"
+                                src="{{ asset('/images/publications/pubs1.png') }}"
                                 style="max-width:500px;">
                         </div>
 
@@ -288,7 +288,7 @@
                     <div class="flex flex-col md:flex-row max-w-7xl mx-auto px-4 py-10 gap-4">
                         <div class="intro-container w-1/2 mb-8 mt-4">
                             <img class="rounded-2xl shadow min-h-full"
-                                src="/images/publications/pubs2.png"
+                                src="{{ asset('/images/publications/pubs2.png') }}"
                                 style="max-width:500px;">
                         </div>
 
@@ -314,7 +314,7 @@
                     <div class="flex flex-col md:flex-row max-w-7xl mx-auto px-4 py-10 gap-4">
                         <div class="intro-container w-1/2 mb-8 mt-4">
                             <img class="rounded-2xl shadow min-h-full"
-                                src="/images/publications/pubs3.png"
+                                src="{{ asset('/images/publications/pubs3.png') }}"
                                 style="max-width:500px;">
                         </div>
 
@@ -354,7 +354,7 @@
     <section class="events-section row bg-gray-100 overflow-hidden relative">
 
         <div class="bg-img-silo w-full z-0 opacity-[0.05] relative">
-            <img src="/images/bgs/dotted.jpg" alt="" class="absolute">
+            <img src="{{ asset('/images/bgs/dotted.jpg') }}" alt="" class="absolute">
         </div>
         
         <div class="flex flex-col max-w-7xl mx-auto px-4 py-12 gap-6 opacity-0 translate-y-10 transition duration-700 scroll-animate">
@@ -400,7 +400,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n3.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n3.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -421,7 +421,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n6.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n6.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -442,7 +442,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n2.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n2.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -463,7 +463,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n4.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n4.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -489,7 +489,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n6.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n6.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -510,7 +510,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n1.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n1.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -531,7 +531,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n3.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n3.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -552,7 +552,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n5.jpg" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n5.jpg') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -578,7 +578,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n3.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n3.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -599,7 +599,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n6.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n6.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -620,7 +620,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n2.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n2.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
@@ -641,7 +641,7 @@
                             <div class="w-1/4 border border-gray-300 rounded-lg shadow hover:scale-105 transition-all bg-white">
                                 <a href="#">
                                     <div class="img-holder max-h-38 overflow-hidden">
-                                        <img class="rounded-t-lg shadow min-h-full" src="/images/news/n4.png" alt="">
+                                        <img class="rounded-t-lg shadow min-h-full" src="{{ asset('/images/news/n4.png') }}" alt="">
                                     </div>
                                     <div class="description-holder flex flex-col p-3">
                                         <div class="flex flex-row justify-between items-center">
