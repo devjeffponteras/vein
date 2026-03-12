@@ -107,7 +107,7 @@
                 <div class="news-card-item hover:scale-102 transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white p-4">
                         <div class="w-1/4 image-container">
-                            <a href="{{ route('single-news') }}"><img src="/images/news/n3.png" alt="" class="rounded"></a>
+                            <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n3.png') }}" alt="" class="rounded"></a>
                         </div>
                         <div class="w-3/4 flex flex-col">
                             <small class="w-full flex flex-row items-center text-gray-500">
@@ -132,7 +132,7 @@
                 <div class="news-card-item hover:scale-102 transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white p-4">
                         <div class="w-1/4 image-container">
-                            <a href="{{ route('single-news') }}"><img src="/images/news/n5.jpg" alt="" class="rounded"></a>
+                            <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n5.jpg') }}" alt="" class="rounded"></a>
                         </div>
                         <div class="w-3/4 flex flex-col">
                             <small class="w-full flex flex-row items-center text-gray-500">
@@ -157,7 +157,7 @@
                 <div class="news-card-item hover:scale-102 transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white p-4">
                         <div class="w-1/4 image-container">
-                            <a href="#"><img src="/images/news/n4.png" alt="" class="rounded"></a>
+                            <a href="#"><img src="{{ asset('/images/news/n4.png') }}" alt="" class="rounded"></a>
                         </div>
                         <div class="w-3/4 flex flex-col">
                             <small class="w-full flex flex-row items-center text-gray-500">
