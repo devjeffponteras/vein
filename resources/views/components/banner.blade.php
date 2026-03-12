@@ -6,8 +6,8 @@
                 <div class="banner-slide__inner">
                     <div class="banner-slide__content">
                         <span class="banner-slide__tag">Comrel</span>
-                        <h2 class="banner-slide__title">Discover our latest collection</h2>
-                        <p class="banner-slide__desc">Explore premium items crafted with care — modern designs, sustainable materials, and exceptional fit.</p>
+                        <h2 class="banner-slide__title">Philsaga Mining Corporation and Philsaga Employees Association and Labor Union Mark Continued Partnership</h2>
+                        <p class="banner-slide__desc">ROSARIO, AGUSAN DEL SUR – Philsaga Mining Corporation (PMC) and the Philsaga Employees Association and Labor Union (PSELU) reaffirmed their commitment to a harmonious and productive working relationship.</p>
                     </div>
                     <div class="banner-slide__image">
                         <img src="{{ asset('/images/banner/1.jpg') }}" alt="Banner 1" />
@@ -20,8 +20,8 @@
                 <div class="banner-slide__inner">
                     <div class="banner-slide__content">
                         <span class="banner-slide__tag">PHILSAGA</span>
-                        <h2 class="banner-slide__title">Up to 50% off selected items</h2>
-                        <p class="banner-slide__desc">Limited time offers across our seasonal range. Don’t miss out — stock is limited.</p>
+                        <h2 class="banner-slide__title">Celebrating Commitment: Honoring Our Longevity Awardees</h2>
+                        <p class="banner-slide__desc">This is a challenge to all of you. Everyone is responsible. Even if we are struggling, let us continue—because we are TIGERS," he declared.</p>
                     </div>
                     <div class="banner-slide__image">
                         <img src="{{ asset('/images/banner/2.jpg') }}" alt="Banner 2" />
@@ -34,8 +34,8 @@
                 <div class="banner-slide__inner">
                     <div class="banner-slide__content">
                         <span class="banner-slide__tag">Featured</span>
-                        <h2 class="banner-slide__title">Handpicked favourites</h2>
-                        <p class="banner-slide__desc">Our team selects standout pieces that combine style and comfort for everyday wear.</p>
+                        <h2 class="banner-slide__title">PMC/MMPRC Holds Public Scoping for the Planned Expansion</h2>
+                        <p class="banner-slide__desc">Led by PMC/MMPRC Vice President Engr. A. Cortes and Resident Manager Engr. Alvin B. Castaños, key stakeholders – including representatives from the Department of Environment and Natural Resources (DENR) Regional Office.</p>
                     </div>
                     <div class="banner-slide__image">
                         <img src="{{ asset('/images/banner/3.jpg') }}" alt="Banner 3" />
