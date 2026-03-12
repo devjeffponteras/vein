@@ -1,0 +1,74 @@
+#navbar-sticky {
+    min-height: 100px;
+    width: 85%;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #198754;
+}
+
+#vein-logo {
+    max-width: 108px;
+    filter: grayscale(1) brightness(0) invert(1);
+}
+
+#trio-logo {
+    max-width: 192px;
+    filter: drop-shadow(2px 4px 6px #009300);
+}
+
+.bg-limegreen-default {
+    background-color: #ccff00;
+    color: #0d542b;
+}
+
+.bg-limegreen-default:hover {
+    background-color: #309900;
+    color: white;
+}
+
+.box-t-container {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.box-t-full {
+    background-color: white;
+    padding: 15px 15px;
+    opacity: .25;
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+
+.box-t-half {
+    background-color: white;
+    padding: 5px 15px;
+    opacity: .15;
+}
+
+.section-spacer {
+    padding: 15px 0px;
+}
+
+.scale-hov:hover {
+    transform: scale(1.03);
+    transition: all .3s ease;
+}
+
+.view-all-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.view-all-icon {
+    display: none;
+    transition: all .6s ease;
+}
+
+.view-all-btn:hover .view-all-icon {
+    display: block;
+}
