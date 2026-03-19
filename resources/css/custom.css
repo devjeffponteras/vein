@@ -1,22 +1,26 @@
+body {
+    font-family: 'Montserrat', 'Inter', 'Arial', 'Helvetica', sans-serif;
+}
+
 #navbar-sticky {
     min-height: 100px;
-    width: 85%;
+    width: 100%;
     margin: auto;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
     display: flex;
     align-items: center;
-    background-color: #198754;
+    background-color: #ffffff;
 }
 
 #vein-logo {
     max-width: 108px;
-    filter: grayscale(1) brightness(0) invert(1);
+    /* filter: grayscale(1) brightness(0) invert(1); */
 }
 
 #trio-logo {
-    max-width: 192px;
-    filter: drop-shadow(2px 4px 6px #009300);
+    max-width: 160px;
+    /* filter: drop-shadow(2px 4px 6px #009300); */
 }
 
 .bg-limegreen-default {
@@ -71,4 +75,9 @@
 
 .view-all-btn:hover .view-all-icon {
     display: block;
+}
+
+img.card-news-image-item.rounded-t-xl {
+    max-height: 202px;
+    object-fit: cover;
 }

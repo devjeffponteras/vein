@@ -1,4 +1,4 @@
-<div class="w-full banner-slider -mt-25">
+<div class="w-full banner-slider -mt-2">
     <div class="banner-slider__viewport">
         <div class="banner-slider__slides">
             <div class="banner-slide banner-slide--active">

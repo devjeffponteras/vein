@@ -111,8 +111,16 @@
                             <img class="w-24 h-20 rounded-s-xl" src="{{ asset('/images/news/n' . $i . '.png') }}" alt="">
                             <div class="flex flex-col py-2 truncate">
                                 <h4 class="truncate font-semibold">The Mindanao Mineral Processing and Refining Corporation (MMPRC)</h4>
-                                <small class="inline-flex text-gray-500"><x-icons.calendar></x-icons.calendar>July 25, 2025</small>
-                                <small class="text-gray-500">By: Will Smith</small>
+                                <div class="w-full flex flex-col">
+                                    <small class="flex text-xs flex-row items-center gap-1 text-gray-700">
+                                        <x-icons.calendar></x-icons.calendar>
+                                        July 23, 2025
+                                    </small>
+                                    <small class="flex flex-row items-center gap-1 text-gray-700">
+                                        <x-icons.userheadset></x-icons.userheadset>
+                                        Will Smith
+                                    </small>
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -129,15 +137,63 @@
                 <div class="news-card-item transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white">
                         <div class="w-full flex flex-col">
-                            <a href="#"><img src="{{ asset('/images/news/n5.jpg') }}" alt="" class="rounded-t-2xl w-full hover:scale-102"></a>
+
+                           <!-- Lightbox ni chuy -->
+                            <div x-data="{ open:false, img:'' }" class="w-full bg-white shadow-lg rounded-xl p-4">
+
+                                <!-- Gallery Grid -->
+                                <div class="grid grid-cols-2 gap-2">
+                                    
+                                    <img src="{{ asset('/images/news/n1.png') }}"
+                                        @click="img='{{ asset('/images/news/n1.png') }}'; open=true"
+                                        class="aspect-square object-cover rounded cursor-pointer hover:opacity-80 hover:scale-102">
+
+                                    <img src="{{ asset('/images/news/n2.png') }}"
+                                        @click="img='{{ asset('/images/news/n2.png') }}'; open=true"
+                                        class="aspect-square object-cover rounded cursor-pointer hover:opacity-80 hover:scale-102">
+
+                                    <img src="{{ asset('/images/news/n3.png') }}"
+                                        @click="img='{{ asset('/images/news/n3.png') }}'; open=true"
+                                        class="aspect-square object-cover rounded cursor-pointer hover:opacity-80 hover:scale-102">
+
+                                    <img src="{{ asset('/images/news/n4.png') }}"
+                                        @click="img='{{ asset('/images/news/n4.png') }}'; open=true"
+                                        class="aspect-square object-cover rounded cursor-pointer hover:opacity-80 hover:scale-102">
+
+                                </div>
+
+                                <!-- Mao ni ang lightbox Btn -->
+                                <div x-show="open"
+                                    x-transition
+                                    @click.away="open=false"
+                                    class="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+
+                                    <img :src="img"
+                                        class="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg">
+
+                                    <!-- Kani close Button -->
+                                    <button
+                                        @click="open=false"
+                                        class="absolute top-6 right-6 text-white text-3xl font-bold">
+                                        &times;
+                                    </button>
+
+                                </div>
+
+                            </div>
+                            <!-- end Lightbox dria -->
+
                             <div class="solo-news-card-content p-5 flex flex-col">
-                                <small class="w-full flex flex-row items-center text-gray-500">
-                                    <span class="w-full flex flex-row items-center">
+                                <div class="w-full flex flex-row-reverse items-center justify-between text-gray-500">
+                                    <small class="flex flex-row items-center gap-1 text-gray-700">
                                         <x-icons.calendar></x-icons.calendar>
                                         July 23, 2025
-                                    </span>
-                                    <span class="float-right text-nowrap">By: Jessica Alba</span>
-                                </small>
+                                    </small>
+                                    <small class="flex flex-row items-center gap-1 text-gray-700">
+                                        <x-icons.userheadset></x-icons.userheadset>
+                                        Jessica Alba
+                                    </small>
+                                </div>
                                 <a href="#" class="news-card-title font-bold text-2xl text-gray-700 hover:text-green-800 py-5">
                                     MMPRC Conducts Semestral Assessment for DHNC and DMTG Scholars
                                 </a>

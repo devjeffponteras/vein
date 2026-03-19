@@ -104,76 +104,86 @@
 
             <div class="flex flex-col gap-4">
 
+                <!-- news article item -->
                 <div class="news-card-item hover:scale-102 transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white p-4">
-                        <div class="w-1/4 image-container">
-                            <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n3.png') }}" alt="" class="rounded"></a>
-                        </div>
-                        <div class="w-3/4 flex flex-col">
-                            <small class="w-full flex flex-row items-center text-gray-500">
-                                <span class="w-full flex flex-row items-center">
-                                    <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Zm3-7h.01v.01H8V13Zm4 0h.01v.01H12V13Zm4 0h.01v.01H16V13Zm-8 4h.01v.01H8V17Zm4 0h.01v.01H12V17Zm4 0h.01v.01H16V17Z"/>
-                                    </svg>
-                                    July 23, 2025
-                                </span>
-                                <span class="float-right text-nowrap">By: Jessica Alba</span>
-                            </small>
-                            <a href="{{ route('single-news') }}" class="news-card-title font-bold text-lg text-gray-700 hover:text-green-800 my-3">
+                        <div class="w-full flex flex-col">
+                            <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n3.png') }}" alt="" class="rounded-lg"></a>
+                            <!-- Gallery -->
+                            <div class="grid grid-cols-4 gap-2 my-4">
+                                <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n6.png') }}" class="h-20 w-full object-cover rounded"></a>
+                                <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n5.jpg') }}" class="h-20 w-full object-cover rounded"></a>
+                                <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n1.png') }}" class="h-20 w-full object-cover rounded"></a>
+                                <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n4.png') }}" class="h-20 w-full object-cover rounded"></a>
+                            </div>
+                            <a href="{{ route('single-news') }}" class="news-card-title font-bold text-lg text-gray-700 hover:text-green-800">
                                 MMPRC Conducts Semestral Assessment for DHNC and DMTG Scholars
                             </a>
+                            <div class="w-full flex flex-row items-center justify-start gap-3 my-2">
+                                <small class="flex flex-row items-center gap-1 text-gray-700">
+                                    <x-icons.userheadset></x-icons.userheadset>
+                                    Jessica Alba
+                                </small>
+                                |
+                                <small class="flex flex-row items-center gap-1 text-gray-700">
+                                    <x-icons.calendar></x-icons.calendar>
+                                    July 23, 2025
+                                </small>
+                            </div>
                             <p class="text-base text-gray-600">
-                                ROSARIO, AGUSAN DEL SUR - The Mindanao Mineral Processing and Refining Corporation (MMPRC), through its Social Development and Management Program (SDMP), successfully conducted the Semestral Assessment for scholars under the Development of Host and Neighboring Communities (DHNC) and Development of Mining Technology and Geosciences (DMTG) components on July 29, 2025, held at the Community Information Center to assess the academic performance, personal development, and overall engagement of scholars for the first semester of 2025.
+                                ROSARIO, AGUSAN DEL SUR - The Mindanao Mineral Processing and Refining Corporation (MMPRC).
                             </p>
                         </div>
                     </div>
                 </div>
 
+                <!-- news article item -->
                 <div class="news-card-item hover:scale-102 transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white p-4">
-                        <div class="w-1/4 image-container">
-                            <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n5.jpg') }}" alt="" class="rounded"></a>
-                        </div>
-                        <div class="w-3/4 flex flex-col">
-                            <small class="w-full flex flex-row items-center text-gray-500">
-                                <span class="w-full flex flex-row items-center">
-                                    <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Zm3-7h.01v.01H8V13Zm4 0h.01v.01H12V13Zm4 0h.01v.01H16V13Zm-8 4h.01v.01H8V17Zm4 0h.01v.01H12V17Zm4 0h.01v.01H16V17Z"/>
-                                    </svg>
-                                    July 23, 2025
-                                </span>
-                                <span class="float-right text-nowrap">By: Jessica Alba</span>
-                            </small>
-                            <a href="{{ route('single-news') }}" class="news-card-title font-bold text-lg text-gray-700 hover:text-green-800 my-3">
+                        <div class="w-full flex flex-col">
+                            <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n1.png') }}" alt="" class="rounded-lg mb-4"></a>
+                            <a href="{{ route('single-news') }}" class="news-card-title font-bold text-lg text-gray-700 hover:text-green-800">
                                 MMPRC Conducts Semestral Assessment for DHNC and DMTG Scholars
                             </a>
+                            <div class="w-full flex flex-row items-center justify-start gap-3 my-2">
+                                <small class="flex flex-row items-center gap-1 text-gray-700">
+                                    <x-icons.userheadset></x-icons.userheadset>
+                                    Jessica Alba
+                                </small>
+                                |
+                                <small class="flex flex-row items-center gap-1 text-gray-700">
+                                    <x-icons.calendar></x-icons.calendar>
+                                    July 23, 2025
+                                </small>
+                            </div>
                             <p class="text-base text-gray-600">
-                                ROSARIO, AGUSAN DEL SUR - The Mindanao Mineral Processing and Refining Corporation (MMPRC), through its Social Development and Management Program (SDMP), successfully conducted the Semestral Assessment for scholars under the Development of Host and Neighboring Communities (DHNC) and Development of Mining Technology and Geosciences (DMTG) components on July 29, 2025, held at the Community Information Center to assess the academic performance, personal development, and overall engagement of scholars for the first semester of 2025.
+                                ROSARIO, AGUSAN DEL SUR - The Mindanao Mineral Processing and Refining Corporation (MMPRC).
                             </p>
                         </div>
                     </div>
                 </div>
 
+                <!-- news article item -->
                 <div class="news-card-item hover:scale-102 transition-all">
                     <div class="flex flex-col md:flex-row gap-6 border border-gray-200 shadow rounded-2xl bg-white p-4">
-                        <div class="w-1/4 image-container">
-                            <a href="#"><img src="{{ asset('/images/news/n4.png') }}" alt="" class="rounded"></a>
-                        </div>
-                        <div class="w-3/4 flex flex-col">
-                            <small class="w-full flex flex-row items-center text-gray-500">
-                                <span class="w-full flex flex-row items-center">
-                                    <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Zm3-7h.01v.01H8V13Zm4 0h.01v.01H12V13Zm4 0h.01v.01H16V13Zm-8 4h.01v.01H8V17Zm4 0h.01v.01H12V17Zm4 0h.01v.01H16V17Z"/>
-                                    </svg>
-                                    July 23, 2025
-                                </span>
-                                <span class="float-right text-nowrap">By: Jessica Alba</span>
-                            </small>
-                            <a href="#" class="news-card-title font-bold text-lg text-gray-700 hover:text-green-800 my-3">
+                        <div class="w-full flex flex-col">
+                            <a href="{{ route('single-news') }}"><img src="{{ asset('/images/news/n4.png') }}" alt="" class="rounded-lg mb-4"></a>
+                            <a href="{{ route('single-news') }}" class="news-card-title font-bold text-lg text-gray-700 hover:text-green-800">
                                 MMPRC Conducts Semestral Assessment for DHNC and DMTG Scholars
                             </a>
+                            <div class="w-full flex flex-row items-center justify-start gap-3 my-2">
+                                <small class="flex flex-row items-center gap-1 text-gray-700">
+                                    <x-icons.userheadset></x-icons.userheadset>
+                                    Jessica Alba
+                                </small>
+                                |
+                                <small class="flex flex-row items-center gap-1 text-gray-700">
+                                    <x-icons.calendar></x-icons.calendar>
+                                    July 23, 2025
+                                </small>
+                            </div>
                             <p class="text-base text-gray-600">
-                                ROSARIO, AGUSAN DEL SUR - The Mindanao Mineral Processing and Refining Corporation (MMPRC), through its Social Development and Management Program (SDMP), successfully conducted the Semestral Assessment for scholars under the Development of Host and Neighboring Communities (DHNC) and Development of Mining Technology and Geosciences (DMTG) components on July 29, 2025, held at the Community Information Center to assess the academic performance, personal development, and overall engagement of scholars for the first semester of 2025.
+                                ROSARIO, AGUSAN DEL SUR - The Mindanao Mineral Processing and Refining Corporation (MMPRC).
                             </p>
                         </div>
                     </div>

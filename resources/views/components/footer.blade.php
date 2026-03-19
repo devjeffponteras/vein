@@ -1,5 +1,6 @@
-<footer class="bg-gray-800 text-white">
-    <div class="max-w-7xl mx-auto py-12 grid grid-cols-md-1 md:grid-cols-4 gap-6 px-4 relative overflow-hidden">
+<footer class="bg-gray-800 text-white relative" style="background-image: url('{{ asset('images/bgs/footer-bg.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="max-w-11/12 mx-auto py-12 grid grid-cols-md-1 md:grid-cols-4 gap-6 px-4 relative overflow-hidden">
         <div class="flex flex-col items-start">
             <!-- <h4 class="font-bold text-xl mb-3">The Vein</h4> -->
             <img src="{{ asset('/images/logos/the_vein_logo.png') }}" alt="" id="vein-logo">
@@ -67,9 +68,9 @@
             </li>
             </ul>
 
-            <img class="opacity-20" id='footer-img' src="{{ asset('/images/logos/pmc-logo-solo.png') }}" alt="" style="min-width: 380px; transform: translate(-50%,10%);" />
+            <img class="opacity-40 shadow" id='footer-img' src="{{ asset('/images/logos/pmc-logo-solo.png') }}" alt="" style="min-width: 380px; transform: translate(-50%,10%);" />
 
         </div>
     </div>
-    <div class="bg-gray-900 text-gray-400 text-center py-4 text-sm">© {{ date('Y') }} {{ config('app.name') }}. All rights reserved.</div>
+    <div class="bg-gray-900/70 text-gray-100 text-center py-4 text-sm">© {{ date('Y') }} {{ config('app.name') }}. All rights reserved.</div>
 </footer>
